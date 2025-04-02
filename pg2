@@ -64,6 +64,8 @@ class prg2 {
         System.out.println();
 
         System.out.println("No of basic operations for quick sort: " + sortCount);
+        System.out.println("\n Best case :"+ (int)(n*Math.log(n)/Math.log(2)));
+        System.out.println("\n Worst case :" + (n*n));
         sc.close();
     }
 }
